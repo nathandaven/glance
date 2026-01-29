@@ -508,4 +508,14 @@ export default function SearchBox(widget) {
     kbdElement.addEventListener("mousedown", () => {
         requestAnimationFrame(() => inputElement.focus());
     });
+
+    // Handle autofocus for dynamically loaded content
+    // Cherrypicked from https://github.com/glanceapp/glance/pull/885
+    // and adapted to https://github.com/glanceapp/glance/pull/706
+    if (inputElement.hasAttribute("autofocus")) {
+        // Use requestAnimationFrame to ensure DOM is fully ready, especially for Firefox
+        requestAnimationFrame(() => {
+            inputElement.focus();
+        });
+    }
 }
