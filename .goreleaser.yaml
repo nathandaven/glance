@@ -1,4 +1,4 @@
-project_name: glanceapp/glance
+project_name: nathandaven/glance
 
 checksum:
   disable: true
@@ -21,7 +21,7 @@ builds:
     goarm:
       - 7
     ldflags:
-      - -s -w -X github.com/glanceapp/glance/internal/glance.buildVersion={{ .Tag }}
+      - -s -w -X github.com/nathandaven/glance/internal/glance.buildVersion={{ .Tag }}
 
 archives:
   -
