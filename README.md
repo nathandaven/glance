@@ -1,3 +1,12 @@
+This fork cherrypicks these two open pull requests to fix the search box on glance mainline:
+
+- https://github.com/glanceapp/glance/pull/702
+- https://github.com/glanceapp/glance/pull/706
+
+Thanks you to these devs!
+
+---
+
 <p align="center"><img src="docs/logo.png"></p>
 <h1 align="center">Glance</h1>
 <p align="center">
