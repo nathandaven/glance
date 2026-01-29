@@ -5,6 +5,8 @@ This fork cherrypicks these two open pull requests to fix the search box on glan
 
 Thanks you to these devs!
 
+Docker build: `nathandaven/glance:latest`
+
 ---
 
 <p align="center"><img src="docs/logo.png"></p>
